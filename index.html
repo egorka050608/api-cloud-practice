@@ -20,7 +20,7 @@
                 list.innerHTML = '';
                 users.forEach(user =>{
                     const li = document.createElement('li');
-                    li.innerText = user.name + '('+ user.email')';
+                    li.innerText = user.name + '('+ user.email +')';
                     list.appendChild(li);
                 });
                 buttion.innerText = 'Данные загружены!';
