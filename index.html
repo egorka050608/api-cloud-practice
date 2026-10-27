@@ -8,7 +8,7 @@
         <ul id="userList"> </ul>
 
         <script>
-            const buttiom = document.getElementById('loadBtn');
+            const button = document.getElementById('loadBtn');
             const list = document.getElementById('userList');
 
             button.addEventListener('click', async() => {
@@ -23,7 +23,7 @@
                     li.innerText = user.name + '('+ user.email +')';
                     list.appendChild(li);
                 });
-                buttion.innerText = 'Данные загружены!';
+                button.innerText = 'Данные загружены!';
             });
         </script>
     </body>
